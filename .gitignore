@@ -1,0 +1,15 @@
+.vscode
+.DS_STORE
+node_modules
+release
+.module-cache
+*.log*
+build
+#dist
+app/dist
+package-lock.json
+*.txt
+!/tasks/live/**/release
+
+/live
+!/live/windows/eeo/EeoIntegration.exe
